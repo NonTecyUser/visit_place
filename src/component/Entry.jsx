@@ -35,7 +35,8 @@
 
 
 
-import Mtfuji from "../assets/mountFuji.png";
+// import Mtfuji from "../assets/mountFuji.png";
+import locationIcon from "../assets/location-icon.png" 
 
 export default function Entry(props) {
 console.log(props);
@@ -52,7 +53,7 @@ console.log(props);
                 <div className= "location-info">
                 <img 
                     className="marker"
-                    src="./src/assets/location-icon.png" 
+                    src={locationIcon}
                     alt="location-icon"
                     />
                 <span className="country">
